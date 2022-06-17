@@ -7,7 +7,7 @@ branches:
     - main  # ветка git
 
 install:
-  - npm install  # команда установки зависимостей
+  - npm install --force  # команда установки зависимостей
 
 build: off  # отключаем встроенную в appveyor систему сборки
 
